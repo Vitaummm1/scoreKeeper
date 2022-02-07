@@ -3,19 +3,30 @@ body {
     align-items: center;
 }
 
-img{
+img {
     max-width: 512px;
     border: 1px solid black;
     box-shadow: 5px 5px 5px;
+    display: inline-flex;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+input{
+    margin-bottom: 20px;
 }
 
 .btn {
-    display: inline-block;
+    display: inline-flex;
     padding: 10px;
     font-family: 'Supermercado One', cursive;
     border: none;
     border-radius: 5%;
-    margin: 0 10px;
+    margin: 10px 10px;
     box-shadow: 5px 5px 5px;
 }
 
